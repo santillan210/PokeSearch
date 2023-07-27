@@ -26,7 +26,6 @@ $(document).ready(function(){
 
                 pokeList_data += '<tr>';
                 pokeList_data += '<td>'+pokeName+'</td>';
-                pokeList_data += '<td>'+value.url+'</td>';
                 pokeList_data += '<td>'+pokeNum+'</td>';
                 pokeList_data += '<td>'+ '<a href="https://bulbapedia.bulbagarden.net/wiki/' + value.name + '" target="_blank">View Pokemon</a></td>';
                 
